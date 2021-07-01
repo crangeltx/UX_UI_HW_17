@@ -27,22 +27,6 @@ body {
     background-size: contain;
     transform: rotate(-5.18deg);
   }
-  
-
-/* The grid container */
-.grid-container {
-  display: grid;
-  grid-template-areas: 
-    'header1 header1 header1 photo photo' 
-    'header2 header2 header2 photo photo' 
-    'header3 header3 header3 photo photo'
-    'intro intro intro intro photo photo';
-
-  grid-template-rows: auto;
-  grid-template-columns: auto;
-} 
-
-
   .home {
     width: 93px;
     color: rgba(255,255,255,1);
@@ -106,6 +90,9 @@ body {
   .intro {
     width: 729px;
     color: rgba(255,255,255,1);
+    position: absolute;
+    top: 431px;
+    left: 64px;
     font-family: Public Sans;
     font-weight: Regular;
     font-size: 30px;
@@ -115,18 +102,21 @@ body {
   .header1 {
     width: 729px;
     color: rgba(255,255,255,1);
-    
+    position: absolute;
+    top: 220px;
+    left: 64px;
     font-family: Public Sans;
     font-weight: Bold;
     font-size: 60px;
     opacity: 1;
     text-align: left;
-    grid-area: header1;
   }
   .header2 {
     width: 729px;
     color: rgba(255,255,255,1);
-    
+    position: absolute;
+    top: 285px;
+    left: 64px;
     font-family: Public Sans;
     font-weight: Regular;
     font-size: 40px;
@@ -136,7 +126,9 @@ body {
   .header3 {
     width: 729px;
     color: rgba(255,255,255,1);
-    
+    position: absolute;
+    top: 332px;
+    left: 64px;
     font-family: Public Sans;
     font-weight: Regular;
     font-size: 40px;
