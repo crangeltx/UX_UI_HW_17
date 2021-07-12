@@ -192,3 +192,14 @@ body {
     opacity: 1;
     text-align: right;
   }
+
+  @media all and (max-width: 768px) {
+    body {
+      background-color:dimgray; 
+    }
+    li {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 1fr);
+      text-align: center;
+    }
+  }
